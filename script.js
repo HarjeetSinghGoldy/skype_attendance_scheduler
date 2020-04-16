@@ -4,9 +4,10 @@ var NODESCHEDULE = require('node-schedule');
 var random=0;
 console.log("Script running!!!!",random);
 async function run(msg) {
- SKYPEHTTP.Api = await SKYPEHTTP.connect({credentials: {username: "harjeetsinghgoldy@gmail.com", password: "Skype106*"}});
+ SKYPEHTTP.Api = await SKYPEHTTP.connect({credentials: {username: "email@gmail.com", password: "********"}});
   //8:live:b0b578de925411d2 // kritka's id
   //8:ashishvista // ashish id's
+  
   var min=0;
       var max=30;
        random = (Math.random() * (+max - +min) + +min).toFixed();
