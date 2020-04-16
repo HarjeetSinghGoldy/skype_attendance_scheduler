@@ -1,0 +1,16 @@
+{
+  "name": "skype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0:4848 --max-old-space-size=8192 script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.3",
+    "skype-http": "0.0.15"
+  }
+}
