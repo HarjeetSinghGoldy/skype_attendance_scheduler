@@ -1,7 +1,7 @@
 // import { Api, connect } from "skype-http";
 var SKYPEHTTP = require('skype-http');
 var NODESCHEDULE = require('node-schedule');
-var random=1;
+var random=10;
 console.log("Script running!!!!",random);
 async function run(msg) {
  SKYPEHTTP.Api = await SKYPEHTTP.connect({credentials: {username: "email@gmail.com", password: "********"}});
